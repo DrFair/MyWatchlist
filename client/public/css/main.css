@@ -1,0 +1,84 @@
+html, body {
+  background: #E8E8E8 !important;
+}
+
+.page-header {
+  width: 100%;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  border-bottom: 1px solid #CCC;
+}
+
+.navbar {
+  border-bottom: 1px solid #CCC;
+}
+
+/* Card wrapper css */
+.card-div {
+  width: 100%;
+  margin: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.card-wrapper {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.poster-card {
+  flex-shrink: 0;
+  width: 150px;
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: #000;
+}
+
+.poster-card:hover {
+  text-decoration: none;
+  color: #000;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.poster-card:active {
+  text-decoration: none;
+  color: #000;
+}
+
+.poster-card:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.card-load {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-fill {
+  flex-shrink: 0;
+  width: 20px;
+}
+
+.card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 4px 4px 0px 4px !important;
+}
+
+.card-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0px 4px;
+}

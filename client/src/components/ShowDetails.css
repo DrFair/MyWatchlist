@@ -1,0 +1,46 @@
+.poster-div {
+  overflow: hidden;
+  min-height: 250px;
+  padding: 10px;
+}
+
+.show-poster {
+  width: 100%;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.title-note {
+  color: #777;
+  font-weight: bold;
+}
+
+.overview-note {
+  color: #777;
+}
+
+.row-divider {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 20px 0px;
+}
+
+.details {
+  padding: 0px 20px;
+}
+
+.details tr td {
+  padding: 0px 10px;
+}
+
+.details tr td:first-child {
+  font-weight: bold;
+  width: 50px;
+  white-space: nowrap;
+}
+
+.details tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.05);
+}

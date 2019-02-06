@@ -1,0 +1,35 @@
+{
+  "name": "mywatchlist",
+  "version": "1.0.0",
+  "description": "Website to browse and keep track of entertainment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "init": "node init.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mads Skovgaard",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "bcrypt": "^2.0.0",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "csrf": "^3.0.6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "gunzip-file": "^0.1.1",
+    "jsonfile": "^5.0.0",
+    "nedb": "^1.8.0",
+    "nedb-session-store": "^1.1.2",
+    "nodemailer": "^4.6.8",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "uuid": "^3.3.2",
+    "winston": "^2.4.0"
+  }
+}

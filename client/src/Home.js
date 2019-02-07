@@ -120,6 +120,7 @@ class Home extends Component {
                   <div className="col-md-6">
                     <h3 className="text-center page-header">Home</h3>
                     <p className="text-center">Nothing here at the moment</p>
+                    <p className="text-center">Under construction</p>
                   </div>
                 )} />
                 <Route exact path="/login" render={(route) => (

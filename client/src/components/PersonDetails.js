@@ -85,6 +85,7 @@ class PersonDetails extends Component {
       <div className="col-md-6">
         <h3 className="text-center page-header">{details.name}</h3>
         <p className="text-center">Nothing here yet</p>
+        <p className="text-center">Under construction</p>
       </div>
     ) : null
   }

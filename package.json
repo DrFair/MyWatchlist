@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "init": "node init.js",
+    "build": "cd client && npm run build",
+    "dev": "cd client && npm start",
+    "prod": "npm run build && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mads Skovgaard",

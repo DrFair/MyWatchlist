@@ -1,6 +1,6 @@
 {
   "tmdbkey": "<YOUR TMDB API KEY>",
-  "port": 3000,
+  "port": 3001,
   "hostname": "http://localhost",
   "gmailUsername": "<GMAIL USERNAME>",
   "gmailPassword": "<GMAIL PASSWORD>",

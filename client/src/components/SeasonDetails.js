@@ -179,7 +179,7 @@ class SeasonDetails extends Component {
       <div className="col-md-10">
         <div className="row mt-4">
           <div className="col-md-4 col-5 poster-div">
-            <img className="movie-poster" src={details.poster_url} alt=""/>
+            <img className="season-poster" src={details.poster_url} alt=""/>
           </div>
           <div className="col-md-8 col-7">
             <div className="row d-block">

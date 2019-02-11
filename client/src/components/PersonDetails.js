@@ -36,7 +36,6 @@ class PersonDetails extends Component {
       credentials: 'include'
     }).then((res) => {
       res.json().then((data) => {
-        console.log(data);
         if (data.error) {
           this.setState({
             loading: false,
